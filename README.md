@@ -13,13 +13,13 @@
 
 O sistema foi projetado para ser intuitivo e robusto, contando com as seguintes funcionalidades principais:
 
-*   **📦 Cadastro e Gestão de Produtos:** Controle completo de itens com suporte a imagens locais, categorias e marcas[cite: 1, 4].
+*   **📦 Cadastro e Gestão de Produtos:** Controle completo de itens com suporte a imagens locais, categorias e marcas.
 *   **🔍 Filtros Avançados de Busca:** Consulta inteligente permitindo cruzar dados por:
-    *   Categoria e Marca[cite: 1, 4].
-    *   Faixa de Preço (Mínimo e Máximo)[cite: 1, 4].
-    *   Status de Estoque (Normal, Baixo, Zero)[cite: 1, 4].
-    *   Status de Promoção e Atividade[cite: 1, 4].
-*   **📊 Relatórios Gerenciais (PDF):** Geração de relatórios dinâmicos e exportáveis utilizando *Microsoft ReportViewer* (RDLC), com exibição de fotos, cálculo de lucros e detalhamento de estoque[cite: 1, 4, 5].
+    *   Categoria e Marca.
+    *   Faixa de Preço (Mínimo e Máximo).
+    *   Status de Estoque (Normal, Baixo, Zero).
+    *   Status de Promoção e Atividade.
+*   **📊 Relatórios Gerenciais (PDF):** Geração de relatórios dinâmicos e exportáveis utilizando *Microsoft ReportViewer* (RDLC), com exibição de fotos, cálculo de lucros e detalhamento de estoque.
 *   **🎨 Interface Moderna (Dark Mode):** Design agradável implementado com a biblioteca `MaterialSkin`, utilizando esquema de cores Indigo e Pink no tema escuro.
 
 ---
@@ -28,11 +28,11 @@ O sistema foi projetado para ser intuitivo e robusto, contando com as seguintes 
 
 Este projeto foi construído utilizando as seguintes tecnologias e bibliotecas:
 
-*   **Linguagem:** C#[cite: 1, 4]
-*   **Plataforma:** .NET Framework (Windows Forms)[cite: 1]
+*   **Linguagem:** C#
+*   **Plataforma:** .NET Framework (Windows Forms)
 *   **Banco de Dados:** MySQL
-*   **UI/UX:** [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) para componentes visuais[cite: 1]
-*   **Relatórios:** Microsoft RDLC Report Designer / ReportViewer[cite: 1, 5]
+*   **UI/UX:** [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin) para componentes visuais
+*   **Relatórios:** Microsoft RDLC Report Designer / ReportViewer
 
 ---
 
@@ -46,20 +46,16 @@ Siga os passos abaixo para rodar o sistema localmente em sua máquina:
 *   Extensão *Microsoft RDLC Report Designer* instalada no Visual Studio.
 
 1. **Clone o repositório:**
-     git clone [https://github.com/SEU_USUARIO/iot-store.git](https://github.com/SEU_USUARIO/iot-store.git)
+git clone [https://github.com/SEU_USUARIO/iot-store.git](https://github.com/SEU_USUARIO/iot-store.git)
     
 2. **Configure o Banco de Dados:**
-
 Importe o arquivo script_banco.sql (disponível na pasta /database) no seu gerenciador MySQL.
-
 Abra o arquivo classConexao.cs (ou similar) no Visual Studio e ajuste a Connection String com seu usuário e senha do MySQL.
 
 3.**Restaure os Pacotes NuGet:**
-
 Clique com o botão direito na Solução dentro do Visual Studio e selecione Restore NuGet Packages (para baixar o MaterialSkin e o ReportViewer)
 
 4.**Compile e Execute:**
-
 Pressione F5 ou clique em Iniciar para rodar a aplicação.
 
 📸 Telas do Sistema:
